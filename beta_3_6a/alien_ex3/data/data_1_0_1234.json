@@ -1,0 +1,137 @@
+[
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_black_bounce.gif",
+    "label": "tunutu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_black_move.gif",
+    "label": "witu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_black_spin.gif",
+    "label": "vivi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_blue_bounce.gif",
+    "label": "danu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_blue_move.gif",
+    "label": "biwi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_blue_spin.gif",
+    "label": "kada"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_red_bounce.gif",
+    "label": "ribi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_red_move.gif",
+    "label": "vitudaka"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/cross_red_spin.gif",
+    "label": "hotu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_black_bounce.gif",
+    "label": "binu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_black_move.gif",
+    "label": "tukatuho"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_black_spin.gif",
+    "label": "rika"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_blue_bounce.gif",
+    "label": "katuhonu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_blue_move.gif",
+    "label": "bivika"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_blue_spin.gif",
+    "label": "nutu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_red_bounce.gif",
+    "label": "tuwihowi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_red_move.gif",
+    "label": "wirihori"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/square_red_spin.gif",
+    "label": "wiri"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_black_bounce.gif",
+    "label": "katukanu"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_black_move.gif",
+    "label": "bibinubi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_black_spin.gif",
+    "label": "nubibi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_blue_bounce.gif",
+    "label": "howi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_blue_move.gif",
+    "label": "rivi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_blue_spin.gif",
+    "label": "vivi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_red_bounce.gif",
+    "label": "daho"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_red_move.gif",
+    "label": "vituwi"
+  },
+  {
+    "test_round": "Round 4",
+    "image": "../animations/triangle_red_spin.gif",
+    "label": "rihonuda"
+  }
+]
