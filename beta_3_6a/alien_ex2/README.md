@@ -1,0 +1,1 @@
+This is a version of (P9T8)^3 P9T27  with pruning. The current setup does not replace the removed items in the seen set using potential non-duplicate items from the unseen set. It would be interesting, however, to see whether allowing possible duplicate replacements would have an effect on the results.
