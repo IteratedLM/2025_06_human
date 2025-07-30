@@ -1,3 +1,5 @@
+B9[TC1]^4 B9 [TC2]^2 B9TC4 B9T27
+
 import {
     PIS_first,
     PIS_second,
@@ -10,6 +12,7 @@ import {
     testInstructions,
     optionalBreak,
     withdrawQuestionnaire,
+    checkWithdraw,
     firstQuestionnaire,
     secondQuestionnaire,
     finalQuestionnaire,
@@ -26,13 +29,17 @@ let labels = [];
 let currentFilename = '';
 let previousFilename = '';
 let stimuli = [];
-let metadata = {};
+window.metadata = {};
 let jsPsych;
 
 
 let orgstimuli;
 
 window.participant_withdrew = false;
+
+let thisExperiment = window.experiment;
+
+
 
 function waitForNewFileAndStartExperiment(maxAttempts = 20) {
     let attempt = 0;
@@ -490,8 +497,7 @@ const prolificID = {
 
         return reflectionTrials;
     }
-
-
+    
     function saveData(filename, filedata) {
         return fetch('data/save_data.php', {
             method: 'POST',
@@ -590,7 +596,7 @@ const prolificID = {
         } else {
             saveData(filename, finalJson)
                 .then(() => {
-                    appendData("log", new_file + '\n');
+                   appendData("log", new_file + '\n');
                     if (window.confirm("The survey is now over. Thank You! Press OK to confirm completion.")) {
                         window.location.href = 'https://assets.wonderplan.ai/kyoto.webp';
                     }
