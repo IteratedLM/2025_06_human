@@ -2,7 +2,7 @@ let allocationStarted = false;
 let previous_file = null;
 
 async function loadDatFile(filename) {
-  const url = `https://choicetask.com/alien_0710/loadTest/${filename}.json`;
+    const url = `https://choicetask.com/beta_3_6a/${window.experiment}/data/${filename}.json`;
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error("Failed to load " + url);
@@ -15,7 +15,7 @@ async function loadDatFile(filename) {
 
 
 function loadLogFile() {
-  return fetch('https://choicetask.com/alien_0710/loadTest/log.txt')
+    return fetch(`https://choicetask.com/beta_3_6a/${window.experiment}/data/log.txt`)
     .then(response => {
       if (!response.ok) {
         throw new Error("Failed to fetch log.txt");
@@ -104,7 +104,7 @@ function saveData(filename, filedata) {
   $.ajax({
     type: 'post',
     cache: false,
-    url: 'loadTest/save_data.php',
+    url: 'data/save_data.php',
     data: { filename: filename, filedata: filedata }
   });
 }
@@ -113,7 +113,7 @@ function appendData(filename, filedata) {
   $.ajax({
     type: 'post',
     cache: false,
-    url: 'loadTest/append_data.php',
+    url: 'data/append_data.php',
     data: { filename: filename, filedata: filedata }
   });
 }

@@ -150,8 +150,7 @@ function startExperiment() {
 
     for (let round = 0; round < 4; round++) {
         const shuffle = jsPsych.randomization.shuffle([...seen]);
-        const nextShuffle = jsPsych.randomization.shuffle([...seen]);
-        const doubleSeen = [...shuffle, ...nextShuffle];
+        const doubleSeen = [...shuffle];
         doubleSeen.forEach(index => {
             const currentIndex = index;
 
@@ -282,7 +281,7 @@ function startExperiment() {
 
 
     function saveData(filename, filedata) {
-        return fetch('loadTest/save_data.php', {
+        return fetch('data/save_data.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
