@@ -1,0 +1,1 @@
+This is a version of (B9T8)^3 B9T27 without pruning. The structure is identical to that of the other versions.
