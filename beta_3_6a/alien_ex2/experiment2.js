@@ -3,6 +3,8 @@
 
 
 import {
+    getFeatures,
+    isFeatureComplete,
     PIS_first,
     PIS_second,
     PIS_last,
@@ -101,9 +103,12 @@ function startExperiment() {
         }
     };
 
-    const shuffledIndices = jsPsych.randomization.shuffle([...Array(27).keys()]);
-    const rawSeen = shuffledIndices.slice(0, 9);
-    const rawUnseen = shuffledIndices.slice(9);
+    let seen,unseen;
+    do {
+	const shuffledIndices = jsPsych.randomization.shuffle([...Array(27).keys()]);
+	seen = shuffledIndices.slice(0, 9);
+	unseen = shuffledIndices.slice(9);
+    } while (!isFeatureComplete(seen, stimuli));
 
     const seen = [];
     const unseen = [...rawUnseen];
